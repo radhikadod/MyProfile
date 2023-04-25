@@ -2,15 +2,44 @@
 <html>
     <head>
         <title> Home </title>
+        <!-- Google font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <style>
+            * {
+                font-family: 'Roboto Slab', serif;
+                
+            }
+            .heading {
+                color: brown;
+                background-color: rgb(201, 189, 189);
+                text-transform: capitalize;
+            }
+            #tools {
+                color: blue;
+            }
+            #eligibility {
+                color: darkmagenta;
+                background-color: yellowgreen;
+            }
+            li {
+                padding: 10px 10px;
+                list-style-type: circle;
+                margin: 5px 10px;
+            }
+
+
+        </style>
     </head>
 
     <body>
-        <h2> Career Objectives </h2>
-        <p> To work in organization where i can learn and grow my skills and help organizational growth </p>
-        <h2>Professional Summary </h2>
+        <h2 class="heading"> Career Objectives </h2>
+        <p> To work in an organization where I can learn and grow my skills and help organizational growth </p>
+        <h2 class="heading">Professional Summary </h2>
         <ul>
-            <li> Having 1 years of experience in developing Single page Web Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
-            <li> Experience on working with version control system - GIT and GitHub </li>
+            <li> Having 1 years of experience in developing Single page Web Applications using <span id="tools">Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
+            <li id="eligibility"> Experience on working with version control system - GIT and GitHub </li>
             <li> Experience working with JIRA for user stories and bug tracking </li>
             <li> Strong Debugging & Troubleshooting code experience using Chrome Developer Tool </li>
             <li> Working exposure on ID's like VS Code and Notepad++ </li>
